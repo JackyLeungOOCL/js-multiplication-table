@@ -4,6 +4,10 @@ function inputIsValid(x, y) {
         return false;
     }
 
+    if (x < 1 || y > 1000) {
+        return false;
+    }
+    
     return true;
 }
 
